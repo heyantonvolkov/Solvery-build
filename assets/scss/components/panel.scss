@@ -1,0 +1,19 @@
+.panel {
+  position: relative;
+  background-color: $white;
+  padding: 24px;
+  border-radius: $border-radius;
+  border: 1px solid $panel-border;
+
+  &__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: $screen-sm - 1px) {
+    &__title {
+      margin-bottom: 18px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.body {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 0!important;
+
+  &.-super-wide {
+    margin: 0 auto;
+    max-width: calc(100% - 128px);
+  }
+
+  &.-blue-bg {
+    padding: 36px 0 50px !important;
+    background-color: $main-bg;
+  }
+}

@@ -1,0 +1,23 @@
+.button {
+  padding: 0.625rem 1.125rem;
+  border-radius: $border-radius !important;
+  font-size: 0.875rem;
+  line-height: 1rem;
+
+  &.-primary {
+    background-color: $primary ;
+    border-color: $primary ;
+    color: $white;
+
+    &.-transparent {
+      background-color: transparent;
+      color: $text-primary;
+    }
+  }
+
+  &.-system {
+    background-color: $system;
+    border-color: $system;
+    color: $white;
+  }
+}
